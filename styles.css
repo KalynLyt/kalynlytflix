@@ -1,0 +1,109 @@
+/* Estilo para o corpo da página */
+body {
+    color: white;
+    background: black;
+    margin: 0;
+    font-family: "Chakra Petch", sans-serif;
+  }
+  
+  /* Estilo para o cabeçalho */
+  header {
+    border-bottom: solid 2px rgb(42, 122, 228);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(42, 122, 228);
+    text-align: center;
+  }
+  
+  /* Estilo para seções */
+  section {
+    background: rgb(184, 156, 213);
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilo para a classe chamada-texto */
+  .chamada-texto {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para títulos h1 e h2 */
+  h1 {
+    font-size: 40px;
+  }
+  
+  h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo para parágrafos */
+  p {
+    font-size: 20px;
+  }
+  
+  /* Estilo para o iframe */
+  iframe {
+    border-radius: 10px; /* Bordas arredondadas */
+  }
+  
+  /* Estilo para imagens na galeria de vídeos */
+  img {
+    height: 200px;
+    width: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Bordas arredondadas */
+    object-fit: cover; /* Ajusta o conteúdo da imagem */
+    transition: transform 0.3s, box-shadow 0.3s; /* Efeito suave no hover */
+  }
+  
+  /* Estilo para a galeria de vídeos */
+  .video-gallery {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px; /* Espaçamento maior entre os itens */
+    padding: 10px 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory; /* Melhora a rolagem */
+  }
+  
+  .video-gallery a {
+    display: block;
+    flex: 0 0 auto; /* Garante que as miniaturas não encolham */
+  }
+  
+  /* Efeito de hover nas miniaturas dos vídeos */
+  .video-gallery img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
+  }
+  
+  /* Estilo para a categoria de vídeos */
+  .categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px; /* Espaçamento maior entre os itens */
+    padding: 10px 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory; /* Melhora a rolagem */
+  }
+  
+  .categoria-videos a {
+    display: block;
+    flex: 0 0 auto; /* Garante que as miniaturas não encolham */
+  }
+  
+  /* Efeito de hover nas miniaturas dos vídeos */
+  .categoria-videos img:hover {
+    transform: scale(1.05); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adiciona sombra */
+  }
+  body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+  }  
